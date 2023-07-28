@@ -1,2 +1,0 @@
-# ListrikPascabayar
-Pembayaran Listrik Pascabayar
