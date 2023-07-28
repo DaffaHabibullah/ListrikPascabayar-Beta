@@ -1,0 +1,46 @@
+/* tagihan.css */
+.tagihan-container {
+    margin-left: 450px;
+    margin-top: 10px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.tagihan-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tagihan-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tagihan-container thead th {
+    background-color: #343a40;
+    color: white;
+}
+
+.tagihan-container th,
+.tagihan-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.tagihan-container th {
+    background-color: #f2f2f2;
+}
+
+.tagihan-container .status-paid {
+    color: green;
+    font-weight: bold;
+}
+
+.tagihan-container .status-unpaid {
+    color: red;
+    font-weight: bold;
+}

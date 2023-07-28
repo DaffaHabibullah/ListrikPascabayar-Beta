@@ -1,0 +1,99 @@
+/* dashboard.css */
+.dashboard-container {
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-responsive h3 {
+    text-align: center;
+}
+
+/* Tarif Listrik Table */
+.table-tarif {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-tarif th,
+.table-tarif td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd; /* Add border around each cell */
+}
+
+.table-tarif thead th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-tarif tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Customize the font color of Tarif per kWh */
+.table-tarif tbody td:nth-child(3) {
+    color: green;
+}
+
+/* User Data Table */
+.table-user {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-user th,
+.table-user td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd; /* Add border around each cell */
+}
+
+.table-user thead th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-user tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* dashboard.css */
+
+.dashboard-container {
+    margin-left: 200px;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.table-container {
+    width: 100%;
+    overflow: auto;
+}
+
+.table-tarif {
+    width: 300px;
+    float: right; /* Move the Tarif table to the top-right corner */
+}
+
+.table-tarif h3 {
+    text-align: center;
+}
+
+.table-user {
+    width: 100%;
+    margin: 0 auto; /* Center the Penggunaan table */
+    max-width: 600px; /* Set the maximum width of the Penggunaan table */
+}
+
+/* Other styles remain the same */

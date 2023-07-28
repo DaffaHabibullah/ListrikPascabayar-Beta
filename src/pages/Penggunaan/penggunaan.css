@@ -1,0 +1,103 @@
+/* Tambahkan CSS styling sesuai kebutuhan */
+.penggunaan-container {
+    margin-left: 450px;
+    margin-top: 10px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.penggunaan-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.penggunaan-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.penggunaan-container thead th {
+    background-color: #343a40;
+    color: white;
+}
+
+.penggunaan-container th,
+.penggunaan-container td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.penggunaan-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.penggunaan-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.penggunaan-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.penggunaan-container select,
+.penggunaan-container input[type='number'] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.penggunaan-container select {
+    cursor: pointer;
+}
+
+.penggunaan-container button {
+    padding: 12px 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.penggunaan-container button:hover {
+    background-color: #0056b3;
+}
+
+.penggunaan-container p.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.penggunaan-container .loading-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: bold;
+    color: #777;
+    font-size: 16px;
+}
+
+/* Optional: Add styles for the TopBar and SideBar components if needed */
+/* ... */
+
+/* Responsive styles (adjust as needed) */
+@media screen and (max-width: 768px) {
+    /* Example responsive styles */
+    .penggunaan-container {
+        padding: 10px;
+    }
+    /* ... */
+}

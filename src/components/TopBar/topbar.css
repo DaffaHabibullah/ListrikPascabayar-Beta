@@ -1,0 +1,25 @@
+/* topbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #343a40;
+    color: white;
+    margin-left: 200px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.navbar-text {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 0;
+}
+
+.button-logout {
+    background-color: rgb(0, 213, 255);
+    color: black;
+}
